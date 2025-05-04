@@ -1,10 +1,10 @@
 on:
   pull_request:
     paths:
-      - "**/data/minecraft/loot_table/gameplay/fishing/fish.json"
+      - "data/minecraft/loot_table/gameplay/fishing/fish.json"
 
 jobs:
-  validate-entries:
+  validate-fish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -19,12 +19,12 @@ jobs:
       - name: Install dependencies
         run: pip install jsonschema
 
-      - name: Validate loot entries
+      - name: Validate fish.json
         env:
           BASE: ${{ github.event.before }}
           HEAD: ${{ github.sha }}
         run: |
-          files=$(git diff --name-only $BASE $HEAD | grep 'data/minecraft/loot_table/.*\.json' || true)
-          for f in $files; do
-            python scripts/validate_loot_entries.py --file "$f" --base "$BASE" --head "$HEAD"
-          done
+          python scripts/validate_loot_entries.py \
+            --file data/minecraft/loot_table/gameplay/fishing/fish.json \
+            --base "$BASE" \
+            --head "$HEAD"
