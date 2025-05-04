@@ -1,0 +1,3072 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#9d9d9d",
+                  "italic": false,
+                  "text": "Dull Fihs"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_fihs"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Typo piscis"
+                  },
+                  "\"TEST FISH PLEASE IGNORE\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ffffff",
+                  "italic": false,
+                  "text": "Common Fihs ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_fihs"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Typo piscis"
+                  },
+                  "\"TEST FISH PLEASE IGNORE\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#1eff00",
+                  "italic": false,
+                  "text": "Shimmering Fihs ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_fihs"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Typo piscis"
+                  },
+                  "\"TEST FISH PLEASE IGNORE\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#0070dd",
+                  "italic": false,
+                  "text": "Gleaming Fihs ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_fihs"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Typo piscis"
+                  },
+                  "\"TEST FISH PLEASE IGNORE\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#a335ee",
+                  "italic": false,
+                  "text": "Ascendant Fihs ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_fihs"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Typo piscis"
+                  },
+                  "\"TEST FISH PLEASE IGNORE\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ff8000",
+                  "italic": false,
+                  "text": "Celestine Fihs ⭐ ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_fihs"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Typo piscis"
+                  },
+                  "\"TEST FISH PLEASE IGNORE\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#9d9d9d",
+                  "italic": false,
+                  "text": "Dull Glormaw"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_glormaw"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Glorpichthys profoundus"
+                  },
+                  "\"Burps bubbles that never rise.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ffffff",
+                  "italic": false,
+                  "text": "Common Glormaw ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_glormaw"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Glorpichthys profoundus"
+                  },
+                  "\"Burps bubbles that never rise.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#1eff00",
+                  "italic": false,
+                  "text": "Shimmering Glormaw ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_glormaw"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Glorpichthys profoundus"
+                  },
+                  "\"Burps bubbles that never rise.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#0070dd",
+                  "italic": false,
+                  "text": "Gleaming Glormaw ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_glormaw"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Glorpichthys profoundus"
+                  },
+                  "\"Burps bubbles that never rise.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#a335ee",
+                  "italic": false,
+                  "text": "Ascendant Glormaw ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_glormaw"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Glorpichthys profoundus"
+                  },
+                  "\"Burps bubbles that never rise.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ff8000",
+                  "italic": false,
+                  "text": "Celestine Glormaw ⭐ ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_glormaw"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Glorpichthys profoundus"
+                  },
+                  "\"Burps bubbles that never rise.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#9d9d9d",
+                  "italic": false,
+                  "text": "Dull Skrimpy"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_skrimpy"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Crustacea skrimpii"
+                  },
+                  "\"Often confused with a bug.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ffffff",
+                  "italic": false,
+                  "text": "Common Skrimpy ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_skrimpy"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Crustacea skrimpii"
+                  },
+                  "\"Often confused with a bug.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#1eff00",
+                  "italic": false,
+                  "text": "Shimmering Skrimpy ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_skrimpy"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Crustacea skrimpii"
+                  },
+                  "\"Often confused with a bug.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#0070dd",
+                  "italic": false,
+                  "text": "Gleaming Skrimpy ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_skrimpy"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Crustacea skrimpii"
+                  },
+                  "\"Often confused with a bug.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#a335ee",
+                  "italic": false,
+                  "text": "Ascendant Skrimpy ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_skrimpy"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Crustacea skrimpii"
+                  },
+                  "\"Often confused with a bug.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ff8000",
+                  "italic": false,
+                  "text": "Celestine Skrimpy ⭐ ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_skrimpy"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Crustacea skrimpii"
+                  },
+                  "\"Often confused with a bug.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#9d9d9d",
+                  "italic": false,
+                  "text": "Dull Maxyfish"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_maxyfish"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Maxyicthus developus"
+                  },
+                  "\"Rise and shine it's max morning time.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ffffff",
+                  "italic": false,
+                  "text": "Common Maxyfish ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_maxyfish"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Maxyicthus developus"
+                  },
+                  "\"Rise and shine it's max morning time.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#1eff00",
+                  "italic": false,
+                  "text": "Shimmering Maxyfish ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_maxyfish"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Maxyicthus developus"
+                  },
+                  "\"Rise and shine it's max morning time.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#0070dd",
+                  "italic": false,
+                  "text": "Gleaming Maxyfish ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_maxyfish"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Maxyicthus developus"
+                  },
+                  "\"Rise and shine it's max morning time.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#a335ee",
+                  "italic": false,
+                  "text": "Ascendant Maxyfish ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_maxyfish"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Maxyicthus developus"
+                  },
+                  "\"Rise and shine it's max morning time.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ff8000",
+                  "italic": false,
+                  "text": "Celestine Maxyfish ⭐ ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_maxyfish"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Maxyicthus developus"
+                  },
+                  "\"Rise and shine it's max morning time.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#9d9d9d",
+                  "italic": false,
+                  "text": "Dull Cobalt Koi"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_cobaltkoi"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Palladus Blessa"
+                  },
+                  "\"Ingredient in ceramic glazes.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ffffff",
+                  "italic": false,
+                  "text": "Common Cobalt Koi ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_cobaltkoi"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Palladus Blessa"
+                  },
+                  "\"Ingredient in ceramic glazes.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#1eff00",
+                  "italic": false,
+                  "text": "Shimmering Cobalt Koi ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_cobaltkoi"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Palladus Blessa"
+                  },
+                  "\"Ingredient in ceramic glazes.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#0070dd",
+                  "italic": false,
+                  "text": "Gleaming Cobalt Koi ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_cobaltkoi"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Palladus Blessa"
+                  },
+                  "\"Ingredient in ceramic glazes.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#a335ee",
+                  "italic": false,
+                  "text": "Ascendant Cobalt Koi ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_cobaltkoi"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Palladus Blessa"
+                  },
+                  "\"Ingredient in ceramic glazes.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ff8000",
+                  "italic": false,
+                  "text": "Celestine Cobalt Koi ⭐ ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_cobaltkoi"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Palladus Blessa"
+                  },
+                  "\"Ingredient in ceramic glazes.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#9d9d9d",
+                  "italic": false,
+                  "text": "Dull Palladium Perch"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_palladiumperch"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Cobalus Blessa"
+                  },
+                  "\"Wear it on your head like those Europeans!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ffffff",
+                  "italic": false,
+                  "text": "Common Palladium Perch ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_palladiumperch"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Cobalus Blessa"
+                  },
+                  "\"Wear it on your head like those Europeans!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#1eff00",
+                  "italic": false,
+                  "text": "Shimmering Palladium Perch ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_palladiumperch"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Cobalus Blessa"
+                  },
+                  "\"Wear it on your head like those Europeans!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#0070dd",
+                  "italic": false,
+                  "text": "Gleaming Palladium Perch ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_palladiumperch"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Cobalus Blessa"
+                  },
+                  "\"Wear it on your head like those Europeans!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#a335ee",
+                  "italic": false,
+                  "text": "Ascendant Palladium Perch ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_palladiumperch"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Cobalus Blessa"
+                  },
+                  "\"Wear it on your head like those Europeans!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ff8000",
+                  "italic": false,
+                  "text": "Celestine Palladium Perch ⭐ ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_palladiumperch"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Cobalus Blessa"
+                  },
+                  "\"Wear it on your head like those Europeans!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#9d9d9d",
+                  "italic": false,
+                  "text": "Dull Mythril Mackrel"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_mythrilmackrel"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Orchiris Blessa"
+                  },
+                  "\"Strong and mythical!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ffffff",
+                  "italic": false,
+                  "text": "Common Mythril Mackrel ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_mythrilmackrel"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Orchiris Blessa"
+                  },
+                  "\"Strong and mythical!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#1eff00",
+                  "italic": false,
+                  "text": "Shimmering Mythril Mackrel ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_mythrilmackrel"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Orchiris Blessa"
+                  },
+                  "\"Strong and mythical!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#0070dd",
+                  "italic": false,
+                  "text": "Gleaming Mythril Mackrel ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_mythrilmackrel"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Orchiris Blessa"
+                  },
+                  "\"Strong and mythical!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#a335ee",
+                  "italic": false,
+                  "text": "Ascendant Mythril Mackrel ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_mythrilmackrel"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Orchiris Blessa"
+                  },
+                  "\"Strong and mythical!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ff8000",
+                  "italic": false,
+                  "text": "Celestine Mythril Mackrel ⭐ ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_mythrilmackrel"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Orchiris Blessa"
+                  },
+                  "\"Strong and mythical!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#9d9d9d",
+                  "italic": false,
+                  "text": "Dull Orichalcum Oarfish"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_orichalcumoarfish"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Mythrae Blessa"
+                  },
+                  "\"Still not worth as much as gold!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ffffff",
+                  "italic": false,
+                  "text": "Common Orichalcum Oarfish ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_orichalcumoarfish"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Mythrae Blessa"
+                  },
+                  "\"Still not worth as much as gold!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#1eff00",
+                  "italic": false,
+                  "text": "Shimmering Orichalcum Oarfish ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_orichalcumoarfish"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Mythrae Blessa"
+                  },
+                  "\"Still not worth as much as gold!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#0070dd",
+                  "italic": false,
+                  "text": "Gleaming Orichalcum Oarfish ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_orichalcumoarfish"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Mythrae Blessa"
+                  },
+                  "\"Still not worth as much as gold!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#a335ee",
+                  "italic": false,
+                  "text": "Ascendant Orichalcum Oarfish ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_orichalcumoarfish"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Mythrae Blessa"
+                  },
+                  "\"Still not worth as much as gold!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ff8000",
+                  "italic": false,
+                  "text": "Celestine Orichalcum Oarfish ⭐ ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_orichalcumoarfish"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Mythrae Blessa"
+                  },
+                  "\"Still not worth as much as gold!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#9d9d9d",
+                  "italic": false,
+                  "text": "Dull Adamantite Arowana"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_adamantitearowana"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Titanus Blessa"
+                  },
+                  "\"Titanus Blessa\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ffffff",
+                  "italic": false,
+                  "text": "Common Adamantite Arowana ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_adamantitearowana"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Titanus Blessa"
+                  },
+                  "\"Titanus Blessa\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#1eff00",
+                  "italic": false,
+                  "text": "Shimmering Adamantite Arowana ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_adamantitearowana"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Titanus Blessa"
+                  },
+                  "\"Titanus Blessa\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#0070dd",
+                  "italic": false,
+                  "text": "Gleaming Adamantite Arowana ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_adamantitearowana"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Titanus Blessa"
+                  },
+                  "\"Titanus Blessa\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#a335ee",
+                  "italic": false,
+                  "text": "Ascendant Adamantite Arowana ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_adamantitearowana"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Titanus Blessa"
+                  },
+                  "\"Titanus Blessa\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ff8000",
+                  "italic": false,
+                  "text": "Celestine Adamantite Arowana ⭐ ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_adamantitearowana"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Titanus Blessa"
+                  },
+                  "\"Titanus Blessa\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:warm_ocean"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#9d9d9d",
+                  "italic": false,
+                  "text": "Dull Titanium Trout"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_titaniumtrout"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Adamantus Blessa"
+                  },
+                  "\"Hypoallergenic!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ffffff",
+                  "italic": false,
+                  "text": "Common Titanium Trout ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_titaniumtrout"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Adamantus Blessa"
+                  },
+                  "\"Hypoallergenic!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#1eff00",
+                  "italic": false,
+                  "text": "Shimmering Titanium Trout ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_titaniumtrout"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Adamantus Blessa"
+                  },
+                  "\"Hypoallergenic!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#0070dd",
+                  "italic": false,
+                  "text": "Gleaming Titanium Trout ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_titaniumtrout"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Adamantus Blessa"
+                  },
+                  "\"Hypoallergenic!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#a335ee",
+                  "italic": false,
+                  "text": "Ascendant Titanium Trout ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_titaniumtrout"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Adamantus Blessa"
+                  },
+                  "\"Hypoallergenic!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ff8000",
+                  "italic": false,
+                  "text": "Celestine Titanium Trout ⭐ ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_titaniumtrout"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Adamantus Blessa"
+                  },
+                  "\"Hypoallergenic!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#9d9d9d",
+                  "italic": false,
+                  "text": "Dull Dreadnought Ciscolini"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_dreadnoughtciscol"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Dreadnoughtucus Ciscoliniculus"
+                  },
+                  "\"Perhaps it was once more monstrous than it is now.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ffffff",
+                  "italic": false,
+                  "text": "Common Dreadnought Ciscolini ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_dreadnoughtciscol"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Dreadnoughtucus Ciscoliniculus"
+                  },
+                  "\"Perhaps it was once more monstrous than it is now.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#1eff00",
+                  "italic": false,
+                  "text": "Shimmering Dreadnought Ciscolini ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_dreadnoughtciscol"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Dreadnoughtucus Ciscoliniculus"
+                  },
+                  "\"Perhaps it was once more monstrous than it is now.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#0070dd",
+                  "italic": false,
+                  "text": "Gleaming Dreadnought Ciscolini ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_dreadnoughtciscol"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Dreadnoughtucus Ciscoliniculus"
+                  },
+                  "\"Perhaps it was once more monstrous than it is now.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#a335ee",
+                  "italic": false,
+                  "text": "Ascendant Dreadnought Ciscolini ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_dreadnoughtciscol"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Dreadnoughtucus Ciscoliniculus"
+                  },
+                  "\"Perhaps it was once more monstrous than it is now.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ff8000",
+                  "italic": false,
+                  "text": "Celestine Dreadnought Ciscolini ⭐ ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_dreadnoughtciscol"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Dreadnoughtucus Ciscoliniculus"
+                  },
+                  "\"Perhaps it was once more monstrous than it is now.\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}
