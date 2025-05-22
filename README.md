@@ -81,6 +81,7 @@ All art was hand-drawn by the lovely artists of Cafe Dot, with credits showing w
 
 If still not working, try following the [datapack installation tutorial](https://minecraft.wiki/w/Tutorial:Installing_a_data_pack) on the Minecraft Wiki.
 
+---
 
 Inspired by [WEBFISHING](https://store.steampowered.com/app/3146520/WEBFISHING/) by [lamedeveloper](https://lamedeveloper.itch.io/).
 
