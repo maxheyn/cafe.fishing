@@ -73,11 +73,11 @@ All art was hand-drawn by the lovely artists of Cafe Dot, with credits showing w
 - whiteswordmoon
 <br><br>
 <img src="./.github/assets/installation.png" />
-TODO
 
-1. Download the `cafe.fishing.zip` file and extract the folder within.
-2. Place the `cafe.fishing/` folder in `/datapacks` inside your Minecraft world folder.
-3. Run `/reload` in-game to activate the datapack.
+1. Download the `cafe.fishing.zip` and `cafe.fishing-resourcepack.zip` files.
+2. Extract the folder within the `cafe.fishing.zip` and place the resulting `cafe.fishing/` folder in `/datapacks` inside your Minecraft world folder.
+3. Move the `cafe.fishing-resourcepack.zip` into your resource pack folder. Enable it in the Minecraft options menu.
+4. Run `/reload` in-game to activate the datapack.
 
 
 Inspired by [WEBFISHING](https://store.steampowered.com/app/3146520/WEBFISHING/) by [lamedeveloper](https://lamedeveloper.itch.io/).
