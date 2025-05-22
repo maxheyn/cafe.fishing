@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "select",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_nugget"
+    },
+    "cases": [
+      {
+        "when": ["wf_copper"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_copper"
+        }
+      },
+      {
+        "when": ["wf_silver"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_silver"
+        }
+      },
+      {
+        "when": ["wf_gold"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_gold"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTk2YTQ4ZGNkYWY0MThmMjJjZDE4NjdjMWViMGFlMjgyYzI4NGI2Nzk5MDZiNzk3ODFkOGQyYjJlZWJhMjEwMiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "Webfishing Fish Tracker",
+    "description": "All your caught fish are recorded here.",
+    "background": "minecraft:block/cyan_concrete",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

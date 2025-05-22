@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "wf_orichalcumoarfish"
+          ]
+        }
+      }
+    },
+    "title": {
+      "color": "#ff8000",
+      "text": "Legendary Orichalcum Oarfish ⭐⭐⭐⭐⭐"
+    },
+    "description": "You caught this fish!",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "frame": "task"
+  },
+  "parent": "global:wf_loot_tracker/caught_epic_wf_orichalcumoarfish_permanent",
+  "criteria": {
+    "fished_wf_orichalcumoarfish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_orichalcumoarfish": true,
+              "wf_legendary": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "select",
+      "property": "minecraft:custom_model_data",
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/fishing_rod"
+      },
+      "cases": [
+        {
+          "when": ["wf_roddull"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "webfishing:item/wf_roddull"
+          }
+        },
+        {
+          "when": ["wf_rodcommon"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "webfishing:item/wf_rodcommon"
+          }
+        },
+        {
+          "when": ["wf_roduncommon"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "webfishing:item/wf_roduncommon"
+          }
+        },
+        {
+          "when": ["wf_rodrare"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "webfishing:item/wf_rodrare"
+          }
+        },
+        {
+          "when": ["wf_rodepic"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "webfishing:item/wf_rodepic"
+          }
+        },
+        {
+          "when": ["wf_rodlegendary"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "webfishing:item/wf_rodlegendary"
+          }
+        }
+      ]
+    },
+    "on_true": {
+      "type": "select",
+      "property": "minecraft:custom_model_data",
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/fishing_rod_cast"
+      },
+      "cases": [
+        {
+          "when": ["wf_roddull"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "webfishing:item/wf_roddull_cast"
+          }
+        },
+        {
+          "when": ["wf_rodcommon"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "webfishing:item/wf_rodcommon_cast"
+          }
+        },
+        {
+          "when": ["wf_roduncommon"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "webfishing:item/wf_roduncommon_cast"
+          }
+        },
+        {
+          "when": ["wf_rodrare"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "webfishing:item/wf_rodrare_cast"
+          }
+        },
+        {
+          "when": ["wf_rodepic"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "webfishing:item/wf_rodepic_cast"
+          }
+        },
+        {
+          "when": ["wf_rodlegendary"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "webfishing:item/wf_rodlegendary_cast"
+          }
+        }
+      ]
+    },
+    "property": "minecraft:fishing_rod/cast"
+  }
+}

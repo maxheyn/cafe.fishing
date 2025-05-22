@@ -1,0 +1,1 @@
+advancement revoke @a from global:wf_loot_notifications

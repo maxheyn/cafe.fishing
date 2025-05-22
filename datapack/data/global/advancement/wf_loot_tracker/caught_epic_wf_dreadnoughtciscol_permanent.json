@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "wf_dreadnoughtciscol"
+          ]
+        }
+      }
+    },
+    "title": {
+      "color": "#a335ee",
+      "text": "Epic Dreadnought Ciscolini ⭐⭐⭐⭐"
+    },
+    "description": "You caught this fish!",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "frame": "task"
+  },
+  "parent": "global:wf_loot_tracker/caught_rare_wf_dreadnoughtciscol_permanent",
+  "criteria": {
+    "fished_wf_dreadnoughtciscol": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_dreadnoughtciscol": true,
+              "wf_epic": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

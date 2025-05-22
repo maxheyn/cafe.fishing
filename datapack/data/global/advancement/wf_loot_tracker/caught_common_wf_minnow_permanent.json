@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:salmon",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "wf_minnow"
+          ]
+        }
+      }
+    },
+    "title": {
+      "color": "#ffffff",
+      "text": "Common Minnow ⭐"
+    },
+    "description": "You caught this fish!",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "frame": "task"
+  },
+  "parent": "global:wf_loot_tracker/caught_dull_wf_minnow_permanent",
+  "criteria": {
+    "fished_wf_minnow": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_minnow": true,
+              "wf_common": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

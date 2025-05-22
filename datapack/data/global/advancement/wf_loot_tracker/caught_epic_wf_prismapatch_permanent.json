@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:salmon",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "wf_prismapatch"
+          ]
+        }
+      }
+    },
+    "title": {
+      "color": "#a335ee",
+      "text": "Epic Prismapatch ⭐⭐⭐⭐"
+    },
+    "description": "You caught this fish!",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "frame": "task"
+  },
+  "parent": "global:wf_loot_tracker/caught_rare_wf_prismapatch_permanent",
+  "criteria": {
+    "fished_wf_prismapatch": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_prismapatch": true,
+              "wf_epic": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "wf_cinnamofloat"
+          ]
+        }
+      }
+    },
+    "title": {
+      "color": "#0070dd",
+      "text": "Rare Cinnamofloat ⭐⭐⭐"
+    },
+    "description": "You caught this fish!",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "frame": "task"
+  },
+  "parent": "global:wf_loot_tracker/caught_uncommon_wf_cinnamofloat_permanent",
+  "criteria": {
+    "fished_wf_cinnamofloat": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_cinnamofloat": true,
+              "wf_rare": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

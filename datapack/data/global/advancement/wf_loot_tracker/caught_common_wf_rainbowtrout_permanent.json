@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:salmon",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "wf_rainbowtrout"
+          ]
+        }
+      }
+    },
+    "title": {
+      "color": "#ffffff",
+      "text": "Common Rainbow Trout ⭐"
+    },
+    "description": "You caught this fish!",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "frame": "task"
+  },
+  "parent": "global:wf_loot_tracker/caught_dull_wf_rainbowtrout_permanent",
+  "criteria": {
+    "fished_wf_rainbowtrout": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_rainbowtrout": true,
+              "wf_common": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

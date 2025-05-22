@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "wf_psherman"
+          ]
+        }
+      }
+    },
+    "title": {
+      "color": "#0070dd",
+      "text": "Rare Familiar Diving Mask ⭐⭐⭐"
+    },
+    "description": "You caught this fish!",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": true,
+    "frame": "goal"
+  },
+  "parent": "global:wf_loot_notifications",
+  "criteria": {
+    "fished_wf_psherman": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_psherman": true,
+              "wf_rare": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "webfishing:schedule_clear_loot_tracker"
+  }
+}

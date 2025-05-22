@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:salmon",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "wf_pridefin"
+          ]
+        }
+      }
+    },
+    "title": {
+      "color": "#ff8000",
+      "text": "Legendary Pridefin ⭐⭐⭐⭐⭐"
+    },
+    "description": "You caught this fish!",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "frame": "task"
+  },
+  "parent": "global:wf_loot_tracker/caught_epic_wf_pridefin_permanent",
+  "criteria": {
+    "fished_wf_pridefin": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_pridefin": true,
+              "wf_legendary": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

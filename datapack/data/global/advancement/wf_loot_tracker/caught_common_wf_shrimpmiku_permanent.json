@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "wf_shrimpmiku"
+          ]
+        }
+      }
+    },
+    "title": {
+      "color": "#ffffff",
+      "text": "Common Shrimp Miku ⭐"
+    },
+    "description": "You caught this fish!",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "frame": "task"
+  },
+  "parent": "global:wf_loot_tracker/caught_dull_wf_shrimpmiku_permanent",
+  "criteria": {
+    "fished_wf_shrimpmiku": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_shrimpmiku": true,
+              "wf_common": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

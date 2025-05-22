@@ -1,0 +1,468 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZlZWZmNGI3ZmNmY2U2OGIwZjc0ZGYwZGIwYWQwYzAxZjczMDFkMGM2ZDg5MzY5OWI0MDJiZDUwYmIzNzZiMCJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "Saltwater Fisher",
+    "description": "Catch your first saltwater fish!"
+  },
+  "parent": "global:wf_basic/basic_root",
+  "criteria": {
+    "fished_wf_bubbles": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_bubbles": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_cinnamofloat": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_cinnamofloat": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_crabbi": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_crabbi": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_diamondswordfish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_diamondswordfish": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_dietdrkelp": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_dietdrkelp": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_dreadnoughtciscol": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_dreadnoughtciscol": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_eelris": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_eelris": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_fihs": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_fihs": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_fishcake": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_fishcake": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_frogfish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_frogfish": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_glorbfish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_glorbfish": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_glormaw": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_glormaw": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_hondacivic": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_hondacivic": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_hotdoggin": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_hotdoggin": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_jabbinggar": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_jabbinggar": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_jetski": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_jetski": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_krabbypatty": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_krabbypatty": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_mapletuna": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_mapletuna": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_oceansunfish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_oceansunfish": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_orichalcumoarfish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_orichalcumoarfish": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_palladiumperch": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_palladiumperch": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_pinkfrogmouth": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_pinkfrogmouth": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_psherman": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_psherman": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_pugfish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_pugfish": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_queenoffulgaria": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_queenoffulgaria": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_sacabambaspis": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_sacabambaspis": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_seahorse": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_seahorse": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_secretagenthat": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_secretagenthat": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_shrimpmiku": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_shrimpmiku": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_spottedbasindweller": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_spottedbasindweller": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_stinkfish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_stinkfish": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_titaniumtrout": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_titaniumtrout": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_vampiresquid": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_vampiresquid": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_viperfish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_viperfish": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fished_wf_bubbles",
+      "fished_wf_cinnamofloat",
+      "fished_wf_crabbi",
+      "fished_wf_diamondswordfish",
+      "fished_wf_dietdrkelp",
+      "fished_wf_dreadnoughtciscol",
+      "fished_wf_eelris",
+      "fished_wf_fihs",
+      "fished_wf_fishcake",
+      "fished_wf_frogfish",
+      "fished_wf_glorbfish",
+      "fished_wf_glormaw",
+      "fished_wf_hondacivic",
+      "fished_wf_hotdoggin",
+      "fished_wf_jabbinggar",
+      "fished_wf_jetski",
+      "fished_wf_krabbypatty",
+      "fished_wf_mapletuna",
+      "fished_wf_oceansunfish",
+      "fished_wf_orichalcumoarfish",
+      "fished_wf_palladiumperch",
+      "fished_wf_pinkfrogmouth",
+      "fished_wf_psherman",
+      "fished_wf_pugfish",
+      "fished_wf_queenoffulgaria",
+      "fished_wf_sacabambaspis",
+      "fished_wf_seahorse",
+      "fished_wf_secretagenthat",
+      "fished_wf_shrimpmiku",
+      "fished_wf_spottedbasindweller",
+      "fished_wf_stinkfish",
+      "fished_wf_titaniumtrout",
+      "fished_wf_vampiresquid",
+      "fished_wf_viperfish"
+    ]
+  ]
+}

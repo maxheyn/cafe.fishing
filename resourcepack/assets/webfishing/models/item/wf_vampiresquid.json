@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "webfishing:item/wf_vampiresquid"
+  }
+}

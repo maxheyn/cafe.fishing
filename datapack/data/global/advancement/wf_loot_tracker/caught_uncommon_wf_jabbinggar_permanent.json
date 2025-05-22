@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "wf_jabbinggar"
+          ]
+        }
+      }
+    },
+    "title": {
+      "color": "#1eff00",
+      "text": "Uncommon Jabbing Gar ⭐⭐"
+    },
+    "description": "You caught this fish!",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "frame": "task"
+  },
+  "parent": "global:wf_loot_tracker/caught_common_wf_jabbinggar_permanent",
+  "criteria": {
+    "fished_wf_jabbinggar": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_jabbinggar": true,
+              "wf_uncommon": true
+            }
+          }
+        }
+      }
+    }
+  }
+}
