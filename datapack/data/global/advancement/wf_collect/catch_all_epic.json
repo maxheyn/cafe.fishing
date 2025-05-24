@@ -837,6 +837,19 @@
         }
       }
     },
+    "fished_wf_suncradlejelly": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "wf_suncradlejelly": true,
+              "wf_epic": true
+            }
+          }
+        }
+      }
+    },
     "fished_wf_titaniumtrout": {
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {

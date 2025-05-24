@@ -14,7 +14,7 @@
       "color": "#ffffff",
       "text": "Common Frog Fish ⭐"
     },
-    "description": "You caught this fish!",
+    "description": "Catch this fish!",
     "announce_to_chat": false,
     "show_toast": true,
     "hidden": true,

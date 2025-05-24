@@ -244,6 +244,13 @@
           "type": "minecraft:model",
           "model": "webfishing:item/wf_hotdoggin"
         }
+      },
+      {
+        "when": ["wf_suncradlejelly"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_suncradlejelly"
+        }
       }
     ]
   }

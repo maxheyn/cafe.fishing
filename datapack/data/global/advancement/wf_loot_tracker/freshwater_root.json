@@ -1,17 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:player_head",
-      "components": {
-        "profile": {
-          "properties": [
-            {
-              "name": "textures",
-              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIxNmFlZmIyZjAzYTcwNGYwMDdmMjJhZjU1OTUwM2QzNjgxY2I4MjdhM2Q1ZTFlY2IzMGI0MmRlZTAwNDJiYSJ9fX0="
-            }
-          ]
-        }
-      }
+      "id": "minecraft:salmon"
     },
     "title": {
       "text": "Freshwater Root"

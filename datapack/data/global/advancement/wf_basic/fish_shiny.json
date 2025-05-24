@@ -14,9 +14,9 @@
       }
     },
     "title": "Ooohh, Shiny!",
-    "description": "Catch a shiny fish!",
+    "description": "Catch a super secret shiny fish!",
     "frame": "challenge",
-    "hidden": false
+    "hidden": true
   },
   "parent": "global:wf_basic/basic_root",
   "criteria": {

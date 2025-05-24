@@ -390,6 +390,18 @@
         }
       }
     },
+    "fished_wf_suncradlejelly": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_suncradlejelly": true
+            }
+          }
+        }
+      }
+    },
     "fished_wf_titaniumtrout": {
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
@@ -460,6 +472,7 @@
       "fished_wf_shrimpmiku",
       "fished_wf_spottedbasindweller",
       "fished_wf_stinkfish",
+      "fished_wf_suncradlejelly",
       "fished_wf_titaniumtrout",
       "fished_wf_vampiresquid",
       "fished_wf_viperfish"

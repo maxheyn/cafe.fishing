@@ -14,7 +14,7 @@
       "color": "#0070dd",
       "text": "Rare Familiar Diving Mask ⭐⭐⭐"
     },
-    "description": "You caught this fish!",
+    "description": "Catch this fish!",
     "announce_to_chat": false,
     "show_toast": true,
     "hidden": true,

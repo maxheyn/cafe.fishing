@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "wf_suncradlejelly"
+          ]
+        }
+      }
+    },
+    "title": {
+      "color": "#a335ee",
+      "text": "Epic Suncradle Jelly ⭐⭐⭐⭐"
+    },
+    "description": "You caught this fish!",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "frame": "task"
+  },
+  "parent": "global:wf_loot_tracker/caught_rare_wf_suncradlejelly_permanent",
+  "criteria": {
+    "fished_wf_suncradlejelly": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_suncradlejelly": true,
+              "wf_epic": true
+            }
+          }
+        }
+      }
+    }
+  }
+}
