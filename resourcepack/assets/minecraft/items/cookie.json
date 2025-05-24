@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "select",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/cookie"
+    },
+    "cases": [
+      {
+        "when": ["wf_soda_big"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_soda_big"
+        }
+      },
+      {
+        "when": ["wf_soda_small"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_soda_small"
+        }
+      },
+      {
+        "when": ["wf_soda_reset"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_soda_reset"
+        }
+      }
+    ]
+  }
+}

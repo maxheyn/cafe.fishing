@@ -119,6 +119,57 @@ data merge entity @s {VillagerData:{profession:fisherman,level:5,type:savanna},P
         {maxUses:999999,rewardExp:0,buy:{count:20,id:"minecraft:iron_nugget",components:{custom_name:{"text":"Silver Fish Coin","color":"#abb0b6","italic":false},custom_model_data:{"strings":["wf_silver"]}}},sell:{count:1,id:"minecraft:iron_nugget",components:{custom_name:{"text":"Gold Fish Coin","color":"#c79623","italic":false},custom_model_data:{"strings":["wf_gold"]}}}},\
         {maxUses:999999,rewardExp:0,buy:{count:1,id:"minecraft:iron_nugget",components:{custom_name:{"text":"Gold Fish Coin","color":"#c79623","italic":false},custom_model_data:{"strings":["wf_gold"]}}},sell:{count:20,id:"minecraft:iron_nugget",components:{custom_name:{"text":"Silver Fish Coin","color":"#abb0b6","italic":false},custom_model_data:{"strings":["wf_silver"]}}}},\
         {maxUses:999999,rewardExp:0,buy:{count:1,id:"minecraft:iron_nugget",components:{custom_name:{"text":"Silver Fish Coin","color":"#abb0b6","italic":false},custom_model_data:{"strings":["wf_silver"]}}},sell:{count:20,id:"minecraft:iron_nugget",components:{custom_name:{"text":"Copper Fish Coin","color":"#b6743d","italic":false},custom_model_data:{"strings":["wf_copper"]}}}},\
+        {\
+            maxUses: 999999,\
+            rewardExp: 0,\
+            buy: {count: 1, id: "minecraft:iron_nugget",\
+                components: {\
+                    custom_name: {"text":"Silver Fish Coin", "color": "#abb0b6", "italic": false},\
+                    custom_model_data: {"strings": ["wf_silver"]},\
+                }\
+            },\
+            sell: {count: 1, id: "minecraft:cookie",\
+                components: {\
+                    custom_name: {"text":"Large Iced Latte", "color": "#7f5c4f", "italic": false},\
+                    custom_model_data: {"strings": ["wf_soda_big"]},\
+                    custom_data: {"wf_soda_big": true}\
+                }\
+            },\
+        },\
+        {\
+            maxUses: 999999,\
+            rewardExp: 0,\
+            buy: {count: 1, id: "minecraft:iron_nugget",\
+                components: {\
+                    custom_name: {"text":"Silver Fish Coin", "color": "#abb0b6", "italic": false},\
+                    custom_model_data: {"strings": ["wf_silver"]},\
+                }\
+            },\
+            sell: {count: 1, id: "minecraft:cookie",\
+                components: {\
+                    custom_name: {"text":"Regular Iced Latte", "color": "#7f5c4f", "italic": false},\
+                    custom_model_data: {"strings": ["wf_soda_reset"]},\
+                    custom_data: {"wf_soda_reset": true}\
+                }\
+            },\
+        },\
+        {\
+            maxUses: 999999,\
+            rewardExp: 0,\
+            buy: {count: 1, id: "minecraft:iron_nugget",\
+                components: {\
+                    custom_name: {"text":"Silver Fish Coin", "color": "#abb0b6", "italic": false},\
+                    custom_model_data: {"strings": ["wf_silver"]},\
+                }\
+            },\
+            sell: {count: 1, id: "minecraft:cookie",\
+                components: {\
+                    custom_name: {"text":"Small Iced Latte", "color": "#7f5c4f", "italic": false},\
+                    custom_model_data: {"strings": ["wf_soda_small"]},\
+                    custom_data: {"wf_soda_small": true}\
+                }\
+            },\
+        },\
         ]\
     }\
 }

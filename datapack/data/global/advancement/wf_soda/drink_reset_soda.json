@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:apple"
+    },
+    "title": "Drank Reset Soda",
+    "description": "Getting average!",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": true
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:cookie",
+          "components": {
+            "minecraft:custom_data": {
+              "wf_soda_reset": true
+            },
+            "minecraft:custom_name": {
+              "text": "Regular Iced Latte",
+              "color": "#7f5c4f",
+              "italic": false
+            },
+            "minecraft:custom_model_data": {
+              "strings": ["wf_soda_reset"]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "webfishing:sodas/resetify"
+  }
+}
