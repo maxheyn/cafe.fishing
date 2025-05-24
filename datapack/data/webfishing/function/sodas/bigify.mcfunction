@@ -1,12 +1,8 @@
-# Check if player is already at maximum size (level 10 = 1.5x)]
-say bigify
-execute if score @s soda_scale matches 10.. run tellraw @s {"text":"The apple has no effect - you've reached maximum size!","color":"yellow"}
+execute if score @s soda_scale matches 10.. run tellraw @s {"text":"The latte has no effect - you've reached maximum size!","color":"yellow"}
 execute if score @s soda_scale matches 10.. run return 0
 
-# Increase scale level by 1
 scoreboard players add @s soda_scale 1
 
-# Apply the corresponding scale based on level
 execute if score @s soda_scale matches 0 run attribute @s minecraft:scale base set 0.75
 execute if score @s soda_scale matches 1 run attribute @s minecraft:scale base set 0.8
 execute if score @s soda_scale matches 2 run attribute @s minecraft:scale base set 0.85
@@ -19,7 +15,6 @@ execute if score @s soda_scale matches 8 run attribute @s minecraft:scale base s
 execute if score @s soda_scale matches 9 run attribute @s minecraft:scale base set 1.2
 execute if score @s soda_scale matches 10 run attribute @s minecraft:scale base set 1.25
 
-# Feedback
 tellraw @s {"text":"You feel yourself growing larger!","color":"green"}
 playsound minecraft:entity.player.levelup player @s ~ ~ ~ 0.5 0.8
 
