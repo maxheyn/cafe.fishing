@@ -173,3 +173,5 @@ data merge entity @s {VillagerData:{profession:fisherman,level:5,type:savanna},P
         ]\
     }\
 }
+
+data merge entity @s {equipment:{head:{count:1,id:"minecraft:white_banner", components:{banner_patterns:[{"pattern":"rhombus","color":"black"},{"pattern":"square_bottom_right","color":"red"},{"pattern":"diagonal_up_left","color":"black"},{"pattern":"stripe_downleft","color":"brown"},{"pattern":"diagonal_left","color":"black"},{"pattern":"curly_border","color":"black"},{"pattern":"triangles_bottom","color":"black"},{"pattern":"triangles_top","color":"black"}]}}}}

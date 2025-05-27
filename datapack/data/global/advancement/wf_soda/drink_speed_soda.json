@@ -1,0 +1,111 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:apple"
+    },
+    "title": "Drank Speed Soda",
+    "description": "Getting faster!",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": true
+  },
+  "criteria": {
+    "drank_skooma_dull": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:pufferfish",
+          "components": {
+            "minecraft:custom_data": {
+              "wf_skooma": true,
+              "wf_dull": true
+            }
+          }
+        }
+      }
+    },
+    "drank_skooma_common": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:pufferfish",
+          "components": {
+            "minecraft:custom_data": {
+              "wf_skooma": true,
+              "wf_common": true
+            }
+          }
+        }
+      }
+    },
+    "drank_skooma_uncommon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:pufferfish",
+          "components": {
+            "minecraft:custom_data": {
+              "wf_skooma": true,
+              "wf_uncommon": true
+            }
+          }
+        }
+      }
+    },
+    "drank_skooma_rare": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:pufferfish",
+          "components": {
+            "minecraft:custom_data": {
+              "wf_skooma": true,
+              "wf_rare": true
+            }
+          }
+        }
+      }
+    },
+    "drank_skooma_epic": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:pufferfish",
+          "components": {
+            "minecraft:custom_data": {
+              "wf_skooma": true,
+              "wf_epic": true
+            }
+          }
+        }
+      }
+    },
+    "drank_skooma_legendary": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:pufferfish",
+          "components": {
+            "minecraft:custom_data": {
+              "wf_skooma": true,
+              "wf_legendary": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "webfishing:sodas/recreation"
+  },
+  "requirements": [
+    [
+      "drank_skooma_dull",
+      "drank_skooma_common",
+      "drank_skooma_uncommon",
+      "drank_skooma_rare",
+      "drank_skooma_epic",
+      "drank_skooma_legendary"
+    ]
+  ]
+}

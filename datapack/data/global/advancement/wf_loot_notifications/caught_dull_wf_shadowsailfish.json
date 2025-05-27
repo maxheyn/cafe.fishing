@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:salmon",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "wf_shadowsailfish"
+          ]
+        }
+      }
+    },
+    "title": {
+      "color": "#9d9d9d",
+      "text": "Dull Shadow Sailfish"
+    },
+    "description": "Catch this fish!",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": true,
+    "frame": "goal"
+  },
+  "parent": "global:wf_loot_notifications",
+  "criteria": {
+    "fished_wf_shadowsailfish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_shadowsailfish": true,
+              "wf_dull": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "webfishing:schedule_clear_loot_tracker"
+  }
+}

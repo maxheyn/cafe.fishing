@@ -18,6 +18,18 @@
   },
   "parent": "global:wf_basic/basic_root",
   "criteria": {
+    "fished_wf_bandage": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_bandage": true
+            }
+          }
+        }
+      }
+    },
     "fished_wf_bubbles": {
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
@@ -402,6 +414,18 @@
         }
       }
     },
+    "fished_wf_tangerineleech": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_tangerineleech": true
+            }
+          }
+        }
+      }
+    },
     "fished_wf_titaniumtrout": {
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
@@ -441,6 +465,7 @@
   },
   "requirements": [
     [
+      "fished_wf_bandage",
       "fished_wf_bubbles",
       "fished_wf_cinnamofloat",
       "fished_wf_crabbi",
@@ -473,6 +498,7 @@
       "fished_wf_spottedbasindweller",
       "fished_wf_stinkfish",
       "fished_wf_suncradlejelly",
+      "fished_wf_tangerineleech",
       "fished_wf_titaniumtrout",
       "fished_wf_vampiresquid",
       "fished_wf_viperfish"

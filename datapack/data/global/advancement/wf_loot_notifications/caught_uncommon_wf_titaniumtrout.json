@@ -4,9 +4,7 @@
       "id": "minecraft:cod",
       "components": {
         "custom_model_data": {
-          "strings": [
-            "wf_titaniumtrout"
-          ]
+          "strings": ["wf_titaniumtrout"]
         }
       }
     },
