@@ -230,6 +230,41 @@
           "type": "minecraft:model",
           "model": "webfishing:item/wf_pablo"
         }
+      },
+      {
+        "when": ["wf_shadesunkbream"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_shadesunkbream"
+        }
+      },
+      {
+        "when": ["wf_purplefirefish"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_purplefirefish"
+        }
+      },
+      {
+        "when": ["wf_shadowsailfish"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_shadowsailfish"
+        }
+      },
+      {
+        "when": ["wf_twig"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_twig"
+        }
+      },
+      {
+        "when": ["wf_skooma"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_skooma"
+        }
       }
     ]
   }

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "wf_tangerineleech"
+          ]
+        }
+      }
+    },
+    "title": {
+      "color": "#1eff00",
+      "text": "Uncommon Tangerine Leech ⭐⭐"
+    },
+    "description": "You caught this fish!",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false,
+    "frame": "task"
+  },
+  "parent": "global:wf_loot_tracker/caught_common_wf_tangerineleech_permanent",
+  "criteria": {
+    "fished_wf_tangerineleech": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_tangerineleech": true,
+              "wf_uncommon": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

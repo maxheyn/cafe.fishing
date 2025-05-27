@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/pufferfish"
+    },
+    "cases": [
+      {
+        "when": ["wf_skooma"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_skooma"
+        }
+      }
+    ]
+  }
+}

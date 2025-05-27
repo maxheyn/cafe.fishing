@@ -354,6 +354,18 @@
         }
       }
     },
+    "fished_wf_purplefirefish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_purplefirefish": true
+            }
+          }
+        }
+      }
+    },
     "fished_wf_quackshank": {
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
@@ -378,6 +390,42 @@
         }
       }
     },
+    "fished_wf_shadesunkbream": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_shadesunkbream": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_shadowsailfish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_shadowsailfish": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_skooma": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_skooma": true
+            }
+          }
+        }
+      }
+    },
     "fished_wf_skrimpy": {
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
@@ -397,6 +445,18 @@
           "predicates": {
             "minecraft:custom_data": {
               "wf_stevefish": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_twig": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_twig": true
             }
           }
         }
@@ -433,10 +493,15 @@
       "fished_wf_pompompupfish",
       "fished_wf_pridefin",
       "fished_wf_prismapatch",
+      "fished_wf_purplefirefish",
       "fished_wf_quackshank",
       "fished_wf_rainbowtrout",
+      "fished_wf_shadesunkbream",
+      "fished_wf_shadowsailfish",
+      "fished_wf_skooma",
       "fished_wf_skrimpy",
-      "fished_wf_stevefish"
+      "fished_wf_stevefish",
+      "fished_wf_twig"
     ]
   ]
 }

@@ -251,6 +251,20 @@
           "type": "minecraft:model",
           "model": "webfishing:item/wf_suncradlejelly"
         }
+      },
+      {
+        "when": ["wf_bandage"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_bandage"
+        }
+      },
+      {
+        "when": ["wf_tangerineleech"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_tangerineleech"
+        }
       }
     ]
   }
