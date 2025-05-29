@@ -170,6 +170,159 @@ data merge entity @s {VillagerData:{profession:fisherman,level:5,type:savanna},P
                 }\
             },\
         },\
+        {\
+            maxUses: 999999,\
+            rewardExp: 0,\
+            buy: {count: 8, id: "minecraft:iron_nugget",\
+                components: {\
+                    custom_name: {"text":"Gold Fish Coin", "color": "#c79623", "italic": false},\
+                    custom_model_data: {"strings": ["wf_gold"]},\
+                }\
+            },\
+            sell: {count: 1, id: "minecraft:music_disc_cat",\
+                components: {\
+                    jukebox_playable: "webfishing:apt",\
+                    custom_model_data: {"strings": ["wf_disc_apt"]},\
+                    custom_data: {"wf_disc_apt": true}\
+                }\
+            },\
+        },\
+                {\
+            maxUses: 999999,\
+            rewardExp: 0,\
+            buy: {count: 8, id: "minecraft:iron_nugget",\
+                components: {\
+                    custom_name: {"text":"Gold Fish Coin", "color": "#c79623", "italic": false},\
+                    custom_model_data: {"strings": ["wf_gold"]},\
+                }\
+            },\
+            sell: {count: 1, id: "minecraft:music_disc_cat",\
+                components: {\
+                    jukebox_playable: "webfishing:babe",\
+                    custom_model_data: {"strings": ["wf_disc_babe"]},\
+                    custom_data: {"wf_disc_babe": true}\
+                }\
+            },\
+        },\
+        {\
+            maxUses: 999999,\
+            rewardExp: 0,\
+            buy: {count: 8, id: "minecraft:iron_nugget",\
+                components: {\
+                    custom_name: {"text":"Gold Fish Coin", "color": "#c79623", "italic": false},\
+                    custom_model_data: {"strings": ["wf_gold"]},\
+                }\
+            },\
+            sell: {count: 1, id: "minecraft:music_disc_cat",\
+                components: {\
+                    jukebox_playable: "webfishing:backstreet",\
+                    custom_model_data: {"strings": ["wf_disc_backstreet"]},\
+                    custom_data: {"wf_disc_backstreet": true}\
+                }\
+            },\
+        },\
+        {\
+            maxUses: 999999,\
+            rewardExp: 0,\
+            buy: {count: 8, id: "minecraft:iron_nugget",\
+                components: {\
+                    custom_name: {"text":"Gold Fish Coin", "color": "#c79623", "italic": false},\
+                    custom_model_data: {"strings": ["wf_gold"]},\
+                }\
+            },\
+            sell: {count: 1, id: "minecraft:music_disc_cat",\
+                components: {\
+                    jukebox_playable: "webfishing:buttercup",\
+                    custom_model_data: {"strings": ["wf_disc_buttercup"]},\
+                    custom_data: {"wf_disc_buttercup": true}\
+                }\
+            },\
+        },\
+        {\
+            maxUses: 999999,\
+            rewardExp: 0,\
+            buy: {count: 8, id: "minecraft:iron_nugget",\
+                components: {\
+                    custom_name: {"text":"Gold Fish Coin", "color": "#c79623", "italic": false},\
+                    custom_model_data: {"strings": ["wf_gold"]},\
+                }\
+            },\
+            sell: {count: 1, id: "minecraft:music_disc_cat",\
+                components: {\
+                    jukebox_playable: "webfishing:fireflies",\
+                    custom_model_data: {"strings": ["wf_disc_fireflies"]},\
+                    custom_data: {"wf_disc_fireflies": true}\
+                }\
+            },\
+        },\
+        {\
+            maxUses: 999999,\
+            rewardExp: 0,\
+            buy: {count: 8, id: "minecraft:iron_nugget",\
+                components: {\
+                    custom_name: {"text":"Gold Fish Coin", "color": "#c79623", "italic": false},\
+                    custom_model_data: {"strings": ["wf_gold"]},\
+                }\
+            },\
+            sell: {count: 1, id: "minecraft:music_disc_cat",\
+                components: {\
+                    jukebox_playable: "webfishing:lights",\
+                    custom_model_data: {"strings": ["wf_disc_lights"]},\
+                    custom_data: {"wf_disc_lights": true}\
+                }\
+            },\
+        },\
+        {\
+            maxUses: 999999,\
+            rewardExp: 0,\
+            buy: {count: 8, id: "minecraft:iron_nugget",\
+                components: {\
+                    custom_name: {"text":"Gold Fish Coin", "color": "#c79623", "italic": false},\
+                    custom_model_data: {"strings": ["wf_gold"]},\
+                }\
+            },\
+            sell: {count: 1, id: "minecraft:music_disc_cat",\
+                components: {\
+                    jukebox_playable: "webfishing:september",\
+                    custom_model_data: {"strings": ["wf_disc_september"]},\
+                    custom_data: {"wf_disc_september": true}\
+                }\
+            },\
+        },\
+        {\
+            maxUses: 999999,\
+            rewardExp: 0,\
+            buy: {count: 8, id: "minecraft:iron_nugget",\
+                components: {\
+                    custom_name: {"text":"Gold Fish Coin", "color": "#c79623", "italic": false},\
+                    custom_model_data: {"strings": ["wf_gold"]},\
+                }\
+            },\
+            sell: {count: 1, id: "minecraft:music_disc_cat",\
+                components: {\
+                    jukebox_playable: "webfishing:shreksong",\
+                    custom_model_data: {"strings": ["wf_disc_shreksong"]},\
+                    custom_data: {"wf_disc_shreksong": true}\
+                }\
+            },\
+        },\
+        {\
+            maxUses: 999999,\
+            rewardExp: 0,\
+            buy: {count: 8, id: "minecraft:iron_nugget",\
+                components: {\
+                    custom_name: {"text":"Gold Fish Coin", "color": "#c79623", "italic": false},\
+                    custom_model_data: {"strings": ["wf_gold"]},\
+                }\
+            },\
+            sell: {count: 1, id: "minecraft:music_disc_cat",\
+                components: {\
+                    jukebox_playable: "webfishing:sunflower",\
+                    custom_model_data: {"strings": ["wf_disc_sunflower"]},\
+                    custom_data: {"wf_disc_sunflower": true}\
+                }\
+            },\
+        },\
         ]\
     }\
 }

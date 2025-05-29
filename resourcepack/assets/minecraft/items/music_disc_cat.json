@@ -1,0 +1,75 @@
+{
+  "model": {
+    "type": "select",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/music_disc_cat"
+    },
+    "cases": [
+      {
+        "when": ["wf_disc_apt"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_disc_apt"
+        }
+      },
+      {
+        "when": ["wf_disc_babe"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_disc_babe"
+        }
+      },
+      {
+        "when": ["wf_disc_backstreet"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_disc_backstreet"
+        }
+      },
+      {
+        "when": ["wf_disc_buttercup"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_disc_buttercup"
+        }
+      },
+      {
+        "when": ["wf_disc_fireflies"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_disc_fireflies"
+        }
+      },
+      {
+        "when": ["wf_disc_lights"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_disc_lights"
+        }
+      },
+      {
+        "when": ["wf_disc_september"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_disc_september"
+        }
+      },
+      {
+        "when": ["wf_disc_shreksong"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_disc_shreksong"
+        }
+      },
+      {
+        "when": ["wf_disc_sunflower"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_disc_sunflower"
+        }
+      }
+    ]
+  }
+}

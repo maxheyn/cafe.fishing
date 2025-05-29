@@ -1,0 +1,65 @@
+{
+  "music_disc.apt": {
+    "sounds": [
+      {
+        "name": "records/apt"
+      }
+    ]
+  },
+  "music_disc.buttercup": {
+    "sounds": [
+      {
+        "name": "records/buttercup"
+      }
+    ]
+  },
+  "music_disc.shreksong": {
+    "sounds": [
+      {
+        "name": "records/shreksong"
+      }
+    ]
+  },
+  "music_disc.sunflower": {
+    "sounds": [
+      {
+        "name": "records/sunflower"
+      }
+    ]
+  },
+  "music_disc.september": {
+    "sounds": [
+      {
+        "name": "records/september"
+      }
+    ]
+  },
+  "music_disc.backstreet": {
+    "sounds": [
+      {
+        "name": "records/backstreet"
+      }
+    ]
+  },
+  "music_disc.babe": {
+    "sounds": [
+      {
+        "name": "records/babe"
+      }
+    ]
+  },
+  "music_disc.fireflies": {
+    "sounds": [
+      {
+        "name": "records/fireflies"
+      }
+    ]
+  },
+  "music_disc.lights": {
+    "sounds": [
+      {
+        "name": "records/lights"
+      }
+    ]
+  }
+}

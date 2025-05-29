@@ -4,7 +4,9 @@
       "id": "minecraft:salmon",
       "components": {
         "custom_model_data": {
-          "strings": ["wf_twig"]
+          "strings": [
+            "wf_twig"
+          ]
         }
       }
     },
