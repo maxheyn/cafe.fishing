@@ -18,6 +18,19 @@
   },
   "parent": "global:wf_collect/catch_all_rare",
   "criteria": {
+    "fished_wf_abomination": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "wf_abomination": true,
+              "wf_epic": true
+            }
+          }
+        }
+      }
+    },
     "fished_wf_adamantitearowana": {
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
@@ -766,6 +779,19 @@
           "components": {
             "minecraft:custom_data": {
               "wf_sacabambaspis": true,
+              "wf_epic": true
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_sculkfang": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "wf_sculkfang": true,
               "wf_epic": true
             }
           }

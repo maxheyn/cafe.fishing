@@ -265,6 +265,20 @@
           "type": "minecraft:model",
           "model": "webfishing:item/wf_skooma"
         }
+      },
+      {
+        "when": ["wf_abomination"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_abomination"
+        }
+      },
+      {
+        "when": ["wf_sculkfang"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_sculkfang"
+        }
       }
     ]
   }
